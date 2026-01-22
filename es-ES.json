@@ -1,0 +1,98 @@
+
+{
+  "locale": "es-ES",
+  "strings": {
+    "txvazio": "",
+    "tx1": "Haga clic en la lupa.",
+
+    "tx2": "Escriba \"Explorer\" en el cuadro de búsqueda.",
+
+    "tx3": "Haga clic en PI System Explorer.",
+
+    "tx4": "Esta capacitación simula el sistema para garantizar la eficacia del aprendizaje. Aprenderá a crear una nueva receta tanto en el sistema como en el plan de control. Si la receta no existe ni en el sistema ni en el plan de control, se producirá un error como el que se muestra en la imagen a continuación.",
+
+    "tx5": "¡IMPORTANTE! Si la receta ya existe en el plan de control o en el sistema, esta capacitación no aplica. Está destinada exclusivamente a la creación de nuevas recetas. Para consultar otros errores y problemas en PI Vision, acceda al GSP de su plan de control.",
+
+    "tx6": "Entendido",
+
+    "tx7": "Probando",
+
+    "tx8": "Esta es la tabla donde se encuentran todas las recetas de todas las máquinas. Tenga cuidado al realizar cambios. Vamos a entender cómo funciona esta tabla.",
+
+    "tx9": "La primera columna corresponde a la máquina a la que pertenece la receta. Esta columna es responsable de vincular el plan de control con su respectiva máquina.",
+
+    "tx10": "Esta columna contiene el código de la receta. Es el mismo código que aparece en PI Vision, vinculado al producto, como se muestra en la imagen de ejemplo.",
+
+    "tx11": "Esta columna identifica la posición de la receta en el plan de control. La posición ingresada aquí debe ser la misma definida en el plan de control. De lo contrario, pueden ocurrir errores de funcionamiento tanto en el sistema como en el plan de control.",
+
+    "tx12": "Esta es la columna donde se encuentra el nombre del producto. Es el mismo nombre que aparece en PI Vision, debajo del código del producto. ¡IMPORTANTE! El nombre del producto ingresado en esta columna debe ser exactamente igual al del plan de control. De lo contrario, se producirán errores en el sistema.",
+
+    "tx13": "Ahora que ya entendemos cómo funciona la tabla, vamos a registrar la nueva receta. Primero la registraremos en esta tabla y luego en el plan de control. Para comenzar, haga clic en la última celda vacía de la columna donde se encuentran los nombres de las máquinas.",
+
+    "tx14": "Haga clic nuevamente",
+
+    "tx15": {
+      "certo": "Haga clic nuevamente, escriba el nombre de la máquina AF17 y presione Enter.",
+      "errado": "Escriba exactamente AF17, utilizando letras mayúsculas."
+    },
+
+    "tx16": {
+      "certo": "Ahora vamos a registrar el código del producto. Haga clic en la celda adyacente, escriba 30247043 y presione Enter.",
+      "errado": "Código incorrecto. Verifique el número ingresado: 30247043."
+    },
+
+    "tx17": {
+      "certo": "Ahora vamos a registrar la posición de la receta. Recuerde: el número ingresado aquí quedará vinculado al plan de control. Por lo tanto, la receta que vamos a crear debe estar en la misma posición del plan de control",
+      "proximo": "Haga clic en la siguiente celda e ingrese el número correspondiente a la próxima posición de receta vacía, según la imagen del plan de control",
+      "errado": "Número de posición incorrecto. Verifique en la imagen del plan de control cuál es la próxima celda de receta vacía junto a la última receta creada en el plan, que se encuentra en la posición 12."
+    },
+
+    "tx18": {
+      "certo": "Ahora vamos a registrar el nombre de la receta. Haga clic en la siguiente celda e ingrese: ABS FEM INTIM IGEL SUAVE C/A 60X8 CB N – Gravity.",
+      "errado": "Asegúrese de haber escrito el nombre correctamente, incluyendo letras mayúsculas y minúsculas. Recuerde: el nombre debe ser exactamente igual a: ABS FEM INTIM IGEL SUAVE C/A 60X8 CB N – Gravity.",
+      "proximo": "Listo. Ahora vamos a realizar el check-in. Recuerde: cualquier cambio realizado en PI System Explorer requiere que se realice el check-in para que tenga efecto.",
+      "aviso": "NUNCA OLVIDE REALIZAR EL CHECK-IN. SI REALIZA CAMBIOS Y NO EFECTÚA EL CHECK-IN, EL SISTEMA BLOQUEARÁ A TODOS LOS DEMÁS USUARIOS."
+    },
+
+    "tx19": {
+      "entendi": "Entendido",
+      "depoisChekin": "Después de realizar el check-in, vamos a registrar esta receta en el plan de control. A través del plan de control, crearemos los PI Points en el sistema para que el plan de control pueda enviar los valores de rangos de la receta. Todos los valores de rango se almacenan en PI Points.",
+      "A": "Vamos a registrar la receta en el plan utilizando la misma información que ingresamos en la tabla de PI System Explorer. A continuación, se muestra una captura de la receta creada en la tabla para facilitar el llenado.",
+      "B": "Usaremos la columna 13, según lo configurado en la tabla.",
+      "C": "Primero ingresaremos el nombre de la receta. Puede copiar el nombre de la receta de la tabla y pegarlo en Excel sin formato. Para ello, haga clic en el nombre de la receta en la imagen a continuación.",
+      "D": "Presione: Ctrl + C.",
+      "E": "Haga clic con el botón derecho del mouse.",
+      "F": "Siempre pegue como valores, en lugar de usar Ctrl + V, para no perder el formato y evitar problemas en la creación de los PI Points.",
+      "G": "Ahora ingrese el código de la receta. Haga clic en la celda debajo de la receta 13 e ingrese el mismo número que aparece en la captura de la tabla a continuación, luego presione Enter.",
+      "H": "Haga clic en la celda vacía junto al nombre de la receta 12.",
+      "I": "¡Excelente! Ahora vamos a crear los PI Points para esta receta. Haga clic en la pestaña: Criar_Receita.",
+      "J": "Aquí es donde creamos los PI Points que almacenan los rangos de la receta y envían la información al sistema. Se crearon varias automatizaciones para simplificar este proceso. En pocos clics, completará esta tarea.",
+      "L": "Este es el número de la receta que queremos crear. En nuestro caso, es la receta número 13.",
+      "M": "Este es el nombre de la receta. No es necesario escribirlo, ya que al seleccionar el número, el sistema lo obtiene automáticamente.",
+      "N": "Aquí se muestra un paso a paso de cómo crear los PI Points. Después de registrar la receta en PI System Explorer y en el plan de control, regresará aquí para realizar este procedimiento."
+    },
+
+    "tx20": {
+      "A": "Comencemos. Haga clic en la flecha hacia abajo junto al número de la receta y seleccione el número 13.",
+      "B": "Haga clic en PI Builder en la parte superior de la cinta de Excel.",
+      "C": "Haga clic en Publish.",
+      "D": "IMPORTANTE: Al crear los PI Points, mantenga siempre estas configuraciones seleccionadas: Edit Mode configurado como 'Create and Edit' y la primera casilla 'Create or Update PI Points' marcada. De lo contrario, pueden producirse errores.",
+      "E": "Haga clic en OK para crear los PI Points y vincular la receta al sistema. Espere a que finalice el proceso."
+    },
+
+    "tx21": {
+      "A": "Completado. Esto fue solo una simulación. En el proceso real, la ejecución puede tardar varios minutos. Espere el mensaje de finalización: 'The requested action is complete'.",
+      "B": "Mientras el mensaje de finalización no aparezca, no fuerce el cierre de Excel ni apague el ordenador, incluso si está tardando mucho. Esto puede causar múltiples errores en la creación de los PI Points y en la vinculación del plan de la receta con el sistema.",
+      "C": "¡ADVERTENCIA! DESPUÉS DE CREAR LOS PI POINTS, NUNCA CAMBIE EL NOMBRE DE LA RECETA, NI EN EL PLAN DE CONTROL NI EN LA TABLA DEL SISTEMA. ESTO HARÁ QUE LA RECETA DEJE DE COMUNICARSE CON EL SISTEMA, IMPOSIBILITANDO LA ACTUALIZACIÓN DE LOS RANGOS DE LAS VARIABLES.",
+      "D": "Haga clic en: Close para cerrar."
+    },
+
+    "tx22": "Finalizar capacitación",
+
+    "tx23": "Capacitación finalizada. Puede volver al portal para realizar otra capacitación o cerrar esta página.",
+
+    "tx24": "",
+
+    "tx25": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Criar Nova Receita",
+	"short_name": "Criar Nova Receita",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [],
+	"screenshots": []
+}

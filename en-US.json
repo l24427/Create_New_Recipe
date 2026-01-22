@@ -1,0 +1,98 @@
+
+{
+  "locale": "en-US",
+  "strings": {
+    "txvazio": "",
+    "tx1": "Click on the magnifying glass.",
+
+    "tx2": "Type \"Explorer\" in the search box.",
+
+    "tx3": "Click on PI System Explorer.",
+
+    "tx4": "This training simulates the system to ensure learning effectiveness. You will learn how to create a new recipe both in the system and in the control plan. If the recipe does not exist in either the system or the control plan, an error like the one shown in the image below will occur.",
+
+    "tx5": "IMPORTANT! If the recipe already exists in the control plan or in the system, this training does not apply. It is exclusively intended for creating new recipes. To check other errors and issues in PI Vision, access the GSP of your control plan.",
+
+    "tx6": "I understand",
+
+    "tx7": "Testing",
+
+    "tx8": "This is the table that contains all recipes for all machines. Be careful when making changes. Let’s understand how this table works.",
+
+    "tx9": "The first column corresponds to the machine to which the recipe belongs. This column is responsible for linking the control plan to its respective machine.",
+
+    "tx10": "This column contains the recipe code. It is the same code that appears in PI Vision, linked to the product, as shown in the example image.",
+
+    "tx11": "This column identifies the recipe position in the control plan. The position entered here must be the same as defined in the control plan. Otherwise, operational errors may occur both in the system and in the control plan.",
+
+    "tx12": "This column contains the product name. It is the same name that appears in PI Vision, below the product code. IMPORTANT! The product name entered in this column must be exactly the same as in the control plan. Otherwise, system errors will occur.",
+
+    "tx13": "Now that we understand how the table works, let’s register the new recipe. First, we will register it in this table and then in the control plan. To begin, click on the last empty cell in the column where the machine names are located.",
+
+    "tx14": "Click again",
+
+    "tx15": {
+      "certo": "Click again, type the machine name AF17, and press Enter.",
+      "errado": "Type exactly AF17, using uppercase letters."
+    },
+
+    "tx16": {
+      "certo": "Now let’s register the product code. Click the adjacent cell, type 30247043, and press Enter.",
+      "errado": "Incorrect code. Check the number entered: 30247043."
+    },
+
+    "tx17": {
+      "certo": "Now let’s register the recipe position. Remember: the number entered here will be linked to the control plan. Therefore, the recipe we are creating must be in the same position as in the control plan.",
+      "proximo": "Click the next cell and enter the number corresponding to the next empty recipe position, according to the control plan image.",
+      "errado": "Incorrect position number. Check in the control plan image which is the next empty recipe cell next to the last recipe created in the plan, which is at position 12."
+    },
+
+    "tx18": {
+      "certo": "Now let’s register the recipe name. Click the next cell and type: ABS FEM INTIM IGEL SUAVE C/A 60X8 CB N – Gravity",
+      "errado": "Make sure the name was typed correctly, including uppercase and lowercase letters. Remember: the name must be exactly the same: ABS FEM INTIM IGEL SUAVE C/A 60X8 CB N – Gravity",
+      "proximo": "Done. Now let’s perform the check-in. Remember: any change made in PI System Explorer requires a check-in for it to take effect.",
+      "aviso": "NEVER FORGET TO PERFORM THE CHECK-IN. IF YOU MAKE CHANGES AND DO NOT PERFORM THE CHECK-IN, THE SYSTEM WILL BLOCK ALL OTHER USERS."
+    },
+
+    "tx19": {
+      "entendi": "I understand",
+      "depoisChekin": "After the check-in is completed, we will register this recipe in the control plan. Through the control plan, we will create the PI Points in the system so the control plan can send the recipe range values. All range values are stored in PI Points.",
+      "A": "We will register the recipe in the control plan using the same information entered in the PI System Explorer table. Below is a screenshot of the recipe created in the table to help with data entry.",
+      "B": "We will use column 13, as configured in the table.",
+      "C": "First, we will enter the recipe name. You can copy the recipe name from the table and paste it into Excel without formatting. To do this, click on the recipe name in the screenshot below.",
+      "D": "Press: Ctrl + C.",
+      "E": "Right-click the mouse.",
+      "F": "Always paste as values instead of using Ctrl + V, to avoid losing formatting and causing issues when creating PI Points.",
+      "G": "Now enter the recipe code. Click on the cell below recipe 13 and type the same number shown in the table screenshot below, then press Enter.",
+      "H": "Click on the empty cell next to the name of recipe 12.",
+      "I": "Great! Now let’s create the PI Points for this recipe. Click on the tab: Criar_Receita.",
+      "J": "This is where we create the PI Points that store the recipe ranges and send the information to the system. Several automations were created to simplify this process. In just a few clicks, you will complete this task.",
+      "L": "This is the recipe number we want to create. In our case, it is recipe number 13.",
+      "M": "This is the recipe name. There is no need to type it, because once the number is selected, the system retrieves it automatically.",
+      "N": "This is a step-by-step guide on how to create the PI Points. After registering the recipe in PI System Explorer and in the control plan, you will return here to perform this procedure."
+    },
+
+    "tx20": {
+      "A": "Let’s start. Click the downward arrow next to the recipe number and select number 13.",
+      "B": "Click on PI Builder in the upper corner of the Excel ribbon.",
+      "C": "Click on Publish.",
+      "D": "IMPORTANT: When creating PI Points, always keep these settings selected: Edit Mode set to 'Create and Edit' and the first checkbox selected 'Create or Update PI Points'. Otherwise, errors may occur.",
+      "E": "Click OK to create the PI Points and link the recipe to the system. Wait for the process to complete."
+    },
+
+    "tx21": {
+      "A": "Completed. This was only a simulation. In a real process, execution may take several minutes. Wait for the completion message: 'The requested action is complete'.",
+      "B": "While the completion message does not appear, do not force Excel to close or shut down the computer, even if it is taking a long time. Doing so may cause multiple errors in PI Point creation and in linking the recipe plan to the system.",
+      "C": "WARNING! AFTER CREATING THE PI POINTS, NEVER CHANGE THE RECIPE NAME, EITHER IN THE CONTROL PLAN OR IN THE SYSTEM TABLE. THIS WILL CAUSE THE RECIPE TO STOP COMMUNICATING WITH THE SYSTEM, MAKING IT IMPOSSIBLE TO UPDATE THE VARIABLE RANGES.",
+      "D": "Click: Close to exit."
+    },
+
+    "tx22": "Finish training",
+
+    "tx23": "Training completed. You can return to the portal to take another training or close this page.",
+
+    "tx24": "",
+
+    "tx25": ""
+  }
+}
