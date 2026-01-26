@@ -83,7 +83,7 @@
     "tx21": {
       "A": "Completed. This was only a simulation. In a real process, execution may take several minutes. Wait for the completion message: 'The requested action is complete'.",
       "B": "While the completion message does not appear, do not force Excel to close or shut down the computer, even if it is taking a long time. Doing so may cause multiple errors in PI Point creation and in linking the recipe plan to the system.",
-      "C": "WARNING! AFTER CREATING THE PI POINTS, NEVER CHANGE THE RECIPE NAME, EITHER IN THE CONTROL PLAN OR IN THE SYSTEM TABLE. THIS WILL CAUSE THE RECIPE TO STOP COMMUNICATING WITH THE SYSTEM, MAKING IT IMPOSSIBLE TO UPDATE THE VARIABLE RANGES.",
+      "C": "WARNING! AFTER CREATING THE PI POINTS, NEVER CHANGE THE RECIPE NAME, EITHER IN THE CONTROL PLAN OR IN THE SYSTEM TABLE. THIS WILL CAUSE THE RECIPE TO STOP COMMUNICATING WITH THE SYSTEM, MAKING IT IMPOSSIBLE TO UPDATE THE VARIABLE RANGES. IMPORTANT: FOR THE NEWLY CREATED RECIPE TO WORK IT IS NECESSARY TO REGISTER THE MACHINE'S PROCESS VARIABLES. IF YOU DO NOT KNOW HOW TO DO THIS, ACCESS THE TRAINING: HOW TO REGISTER VARIABLES.",
       "D": "Click: Close to exit."
     },
 

@@ -83,7 +83,7 @@
     "tx21": {
       "A": "Concluído. Aqui foi apenas uma simulação. No processo real, a execução pode levar vários minutos. Aguarde a mensagem de conclusão: 'The requested action is complete'.",
       "B": "Enquanto a mensagem de conclusão não aparecer, não force o fechamento do Excel nem desligue o computador, mesmo que esteja demorando. Isso pode causar vários erros na criação dos PI Points e no vínculo do plano de controle com o sistema.",
-      "C": "AVISO! APÓS CRIAR OS PI POINTS, NUNCA MUDE O NOME DA RECEITA, NEM NO PLANO NEM NA TABELA DO SISTEMA. ISSO FARÁ COM QUE A RECEITA PARE DE SE COMUNICAR COM O SISTEMA, SENDO IMPOSSÍVEL ATUALIZAR OS RANGES DAS VARIÁVEIS.",
+      "C": "AVISO! APÓS CRIAR OS PI POINTS, NUNCA MUDE O NOME DA RECEITA, NEM NO PLANO NEM NA TABELA DO SISTEMA. ISSO FARÁ COM QUE A RECEITA PARE DE SE COMUNICAR COM O SISTEMA, SENDO IMPOSSÍVEL ATUALIZAR OS RANGES DAS VARIÁVEIS. IMPORTANTE: PARA QUE A NOVA RECEITA CRIADA FUNCIONE É NECESSÁRIO CADASTRAR AS VARIÁVES DE PROCESSO DA MÁQUINA, SE NÃO SOUBER FAZER ISSO ACESSE O TREINAMENTO: COMO CADASTRAR VARIAVEIS.",
       "D": "Clique em: Close para fechar."
     },
 

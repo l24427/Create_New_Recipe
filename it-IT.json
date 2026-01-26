@@ -83,7 +83,7 @@
     "tx21": {
       "A": "Completato. Questa era solo una simulazione. Nel processo reale, l’esecuzione può richiedere diversi minuti. Attendere il messaggio di completamento: 'The requested action is complete'.",
       "B": "Finché il messaggio di completamento non appare, non forzare la chiusura di Excel né spegnere il computer, anche se l’operazione sta richiedendo molto tempo. Questo potrebbe causare diversi errori nella creazione dei PI Point e nel collegamento del piano della ricetta al sistema.",
-      "C": "AVVISO! DOPO AVER CREATO I PI POINT, NON MODIFICARE MAI IL NOME DELLA RICETTA, NÉ NEL PIANO DI CONTROLLO NÉ NELLA TABELLA DEL SISTEMA. CIÒ FARÀ SÌ CHE LA RICETTA SMETTA DI COMUNICARE CON IL SISTEMA, RENDENDO IMPOSSIBILE L’AGGIORNAMENTO DEI RANGE DELLE VARIABILI.",
+      "C": "AVVISO! DOPO AVER CREATO I PI POINT, NON MODIFICARE MAI IL NOME DELLA RICETTA, NÉ NEL PIANO DI CONTROLLO NÉ NELLA TABELLA DEL SISTEMA. CIÒ FARÀ SÌ CHE LA RICETTA SMETTA DI COMUNICARE CON IL SISTEMA, RENDENDO IMPOSSIBILE L’AGGIORNAMENTO DEI RANGE DELLE VARIABILI. IMPORTANTE: PER FAR FUNZIONARE LA NUOVA RICETTA CREATA È NECESSARIO REGISTRARE LE VARIABILI DI PROCESSO DELLA MACCHINA. SE NON SAI COME FARLO, ACCEDI ALLA FORMAZIONE: COME REGISTRARE LE VARIABILI.",
       "D": "Fare clic su: Close per chiudere."
     },
 
