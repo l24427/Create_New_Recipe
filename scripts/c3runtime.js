@@ -1617,6 +1617,7 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0("tx21.C");
 		},
+		() => 22,
 		() => "https://l24427.github.io/home_training_aveva/"
 ];
 
